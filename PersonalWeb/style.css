@@ -1,0 +1,176 @@
+body{
+	margin:0px;
+}
+#container{
+	background-color:#faddca;
+}
+#banner{
+	color:rgb(242, 250, 252);
+	height:300px;
+	background:linear-gradient(to top, rgba(11, 60, 73, 0), rgba(11, 60, 73, 1));
+}
+#footer{
+	height:140px;
+}
+#header-top{
+	display:inline-block;
+	position:absolute;
+	left:20%;
+	top:5%;
+}
+#header-bottom{
+	display:inline-block;
+	position:absolute;
+	left:30%;
+	top:15%;
+}
+
+
+#menu{
+	float:right;
+	display:inline-block;
+	padding-right:80px;
+	
+}
+#menu li{
+	display:inline-block;
+	position:relative;
+	padding:10px;
+	font-size:20px;
+}
+#menu a{
+	text-decoration:none;
+	color:rgb(242, 250, 252);
+}
+#menu a:hover{
+	color:rgb(117, 250, 227);
+	cursor:pointer;
+}
+.menu2{
+	display:none;
+	position:absolute;
+	top:35px;
+	left:-40px;
+} 
+
+.menu2 li{
+	display:block;
+	line-height:14pt;
+	width:150px;
+	
+}
+#menu li:hover .menu2{
+	display:block;
+}
+
+
+
+
+#content{
+	color:rgb(11, 60, 73);
+	width:900px;
+	margin:auto;
+}
+#content p{
+	line-height:1.7;
+	font-size:15pt;
+	margin-left:10px;
+}
+#intro p, #TCPIP P, #ML p, #AI p, #p5js p, #paintings p{
+	text-indent: 2pc;
+}
+#intro img+p{
+	margin:0px;
+	padding-top:10px;
+	padding-left:50px;
+	display:inline-block; 
+	width:550px; 
+	vertical-align:top;
+}
+#paintings img+p{
+	vertical-align:top;
+	margin:0px;
+	display:inline-block;
+	width:350px;
+	padding-left:40px;
+	padding-top:20px;
+	font-weight:normal;
+}
+img{
+	border-radius:10px;
+	margin:10px;
+	box-shadow: 10px 10px 10px rgb(108, 123, 128); 
+	border:7px ridge lightgray;
+}
+h1{
+	font-size:35px;
+}
+h2:nth-child(1){
+	padding-left:30px;
+	padding-top:7px;
+	padding-bottom:7px;
+	background:linear-gradient(to right, rgba(250, 176, 127, 1), rgba(250, 176, 127, 0));
+	border-radius:9px;
+	color:rgb(11, 60, 73);
+}
+
+#sketch a>span{
+	display:inline-block;
+	width:250px;
+	height:420px;
+	background:linear-gradient(to bottom, rgba(11, 60, 73, 0), rgba(11, 60, 73, 0.9)), url(img/glassesgirl-2.jpg);
+	border-radius:10px;
+	font-weight:bold;
+	font-size:18pt;
+	color:rgb(242, 250, 252);
+	line-height:750px;
+	
+}
+#sketch a>span:hover{
+	background:linear-gradient(to bottom, rgba(11, 60, 73, 0), rgba(11, 60, 73, 0.9)), url(img/glassesgirl-3.jpg);
+	background-position:center;
+	color:rgb(117, 250, 227);
+}
+#learn a>span{
+	display:inline-block;
+	width:500px;
+	height:326px;
+	background:linear-gradient(to bottom, rgba(11, 60, 73, 0), rgba(11, 60, 73, 0.9)), url(img/ping_code-2.png);
+	border-radius:10px;
+	font-weight:bold;
+	font-size:18pt;
+	color:rgb(242, 250, 252);
+	line-height:570px;
+}
+#learn a>span:hover{
+	background:linear-gradient(to bottom, rgba(11, 60, 73, 0), rgba(11, 60, 73, 0.9)), url(img/ping_code-3.png);
+	background-position:center;
+	color:rgb(117, 250, 227);
+}
+#preview p{
+	display:inline-block;
+	margin-right:50px;
+	
+}
+
+#btn:hover{
+	background-color:rgb(11, 60, 73);
+	color:rgb(242, 250, 252);
+	cursor:pointer;
+}
+input{
+	position:relative;
+	bottom:3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
